@@ -1,0 +1,51 @@
+================================================================================
+CaImAn fit() vs fit_v2() Comparison Results
+================================================================================
+
+SPATIAL COMPONENT A VERIFICATION
+--------------------------------------------------------------------------------
+Total absolute difference: 3.4720999146e+02
+Maximum absolute difference: 1.6599610448e-01
+Mean absolute difference: 9.1983292805e-07
+Status: WARNING - A has changed
+
+TEMPORAL COMPONENT C CORRELATION STATISTICS
+--------------------------------------------------------------------------------
+Mean correlation: nan
+Std correlation: nan
+Min correlation: nan
+Max correlation: nan
+Median correlation: nan
+
+TEMPORAL COMPONENT C ERROR STATISTICS
+--------------------------------------------------------------------------------
+Mean MSE: 8.346955e+01
+Mean MAE: 6.528536e+00
+Max MSE: 2.763786e+03
+Max MAE: 5.212324e+01
+
+10 COMPONENTS WITH WORST CORRELATION
+--------------------------------------------------------------------------------
+ 1. Component # 613: corr=-0.001255, MSE=9.607316e-05, MAE=1.052145e-03
+ 2. Component # 650: corr=0.016523, MSE=1.214789e-04, MAE=6.928775e-04
+ 3. Component # 592: corr=0.818288, MSE=5.919855e+02, MAE=2.238606e+01
+ 4. Component # 278: corr=0.829873, MSE=1.183479e+02, MAE=9.777452e+00
+ 5. Component # 521: corr=0.886282, MSE=5.336456e+02, MAE=2.064973e+01
+ 6. Component #  57: corr=0.889740, MSE=5.739269e+01, MAE=5.700940e+00
+ 7. Component # 654: corr=0.892637, MSE=1.189266e+03, MAE=2.913310e+01
+ 8. Component # 655: corr=0.895962, MSE=8.228155e+02, MAE=2.375674e+01
+ 9. Component # 310: corr=0.902609, MSE=1.539981e+02, MAE=1.136195e+01
+10. Component #  75: corr=0.907258, MSE=4.906836e+02, MAE=1.892369e+01
+
+10 COMPONENTS WITH BEST CORRELATION
+--------------------------------------------------------------------------------
+ 1. Component # 612: corr=nan, MSE=3.221105e-05, MAE=5.675479e-03
+ 2. Component # 125: corr=1.000000, MSE=3.423821e-05, MAE=5.851206e-03
+ 3. Component # 360: corr=1.000000, MSE=1.039978e-04, MAE=1.019791e-02
+ 4. Component # 375: corr=0.999997, MSE=2.653214e-04, MAE=1.628868e-02
+ 5. Component # 147: corr=0.999996, MSE=3.941609e-05, MAE=6.277302e-03
+ 6. Component # 662: corr=0.999996, MSE=8.672148e-05, MAE=9.310840e-03
+ 7. Component # 230: corr=0.999996, MSE=4.094955e-05, MAE=6.399162e-03
+ 8. Component # 193: corr=0.999995, MSE=1.199529e-06, MAE=1.087123e-03
+ 9. Component # 229: corr=0.999994, MSE=6.573271e-08, MAE=2.551881e-04
+10. Component # 608: corr=0.999994, MSE=9.416387e-10, MAE=3.027411e-05
